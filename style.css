@@ -118,17 +118,19 @@ a{
 }
 
 #titulopag1{
-    font-size: 72px;
+    font-size: 65px;
     color: white;
     line-height: 1.1;
     margin-bottom: 16px;
+    width: 100%;
+    max-width: 530px;
 }
 
 .paragrafo{
-    font-size: 19px;
+    font-size: 18px;
     color: white;
     width: 100%;
-    max-width: 608px;
+    max-width: 500px;
 }
 
 #imgpag1box{
@@ -755,6 +757,7 @@ a{
 .cardspag6{
     border: 1px solid rgba(81, 113, 149, 0.46);
     border-radius: 20px;
+    padding: 0 15px;
 }
 
 .comecopag6{
@@ -777,9 +780,7 @@ a{
 
 .imgpag6{
     width: 100%;
-    max-width: 420px;
     border-radius: 20px;
-    margin: 0 10px 0 10px;
 }
 
 .fimimgpag6{
@@ -804,7 +805,7 @@ a{
 
 .fimpag6 > h2{
     font-weight: bold;
-    margin: 25px 12px;
+    margin: 25px 0;
     font-size: 28px;
     width: 100%;
     max-width: 420px;
@@ -862,6 +863,7 @@ a{
     border-radius: 20px;
     padding: 25px 20px 5px 20px;
     background-color: #2c3245;
+    width: 90%;
 }
 
 #boxfooter > h1{
