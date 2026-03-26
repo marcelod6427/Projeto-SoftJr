@@ -810,7 +810,8 @@ a{
 
 .fimimgpag6{
     display: flex;
-    gap: 25px;
+    flex-wrap: wrap;
+    gap: 10px;
     margin: 12px;
 }
 
@@ -1265,6 +1266,8 @@ a{
 
         .fimpag6{gap: 10px;}
 
+        .fimimgpag6{justify-content: center;}
+
         .fimpag6 > h2{
             font-size: 20px;
             margin: 15px 0;
@@ -1373,7 +1376,7 @@ a{
     }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 389px) {
     body{
         #background{
             margin-bottom: 315px;
@@ -1389,10 +1392,10 @@ a{
     }
 }
 
-@media screen and (max-width: 345px) {
+@media screen and (max-width: 349px) {
     body{
         #background{
-            margin-bottom: 475px;
+            margin-bottom: 400px;
         }
     }
 }
@@ -1404,4 +1407,3 @@ a{
         }
     }
 }
-
