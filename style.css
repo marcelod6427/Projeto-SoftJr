@@ -1240,7 +1240,10 @@ a{
 
         #imagenspag5{justify-content: center;}
 
-        .imagempag5{align-self: center;}
+        .imagempag5{
+            align-self: center;
+            max-width: 285px;
+        }
 
         #alinharfimpag5{margin-bottom: 25px;}
         #fimpag5 > h2{font-size: 18px;}
@@ -1261,7 +1264,7 @@ a{
         }
 
         .cardspag6{
-            max-width: 80%;
+            max-width: 90%;
         }
 
         .fimpag6{gap: 10px;}
