@@ -88,14 +88,6 @@ a{
 
 /* --- */
 
-/*
-#separarpag1dapag2{
-    display: flex;
-    flex-direction: column;
-    gap: 500px;
-}
-*/
-
 #background{
     background-image: url(imgs/background1.png);
     background-size: cover;
@@ -240,6 +232,7 @@ a{
     padding: 16px 13px;
     border-radius: 12px;
     min-height: 61px;
+    cursor: text;
 }
 
 .calendarioazul{
@@ -247,8 +240,23 @@ a{
     max-width: 24px;
 }
 
-.campo-box > p{
-    color: rgba(0, 0, 0, 0.877);
+.campo-box input,
+.campo-box select{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    width: 100%;
+    background: transparent;
+    color: rgba(0, 0, 0, 0.568);
+}
+
+.campo-box input::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.campo-box select{
+    appearance: none;
+    cursor: pointer;
 }
 
 #booknow{
@@ -607,8 +615,7 @@ a{
     gap: 24px;
 }
 
-.cardspag4,
-#medicopag4{
+.cardspag4{
     display: flex;
     align-items: center;
     gap: 16px;
@@ -619,20 +626,7 @@ a{
     transition: 0.3s;
 }
 
-#medicopag4{
-    background-color: #4b6cff;
-}
-
 .cardspag4:hover{background-color: #4b6cff;}
-
-
-
-/* arrumar */
-#medicopag4:hover{
-    background-color: #4b6cff;
-}
-
-
 
 .h1ppag4 > h2{
     font-weight: bold;
@@ -904,7 +898,7 @@ a{
     font-size: 23px;
 }
 
-#email{
+#email {
     display: flex;
     justify-content: space-between;
     margin: 20px 0;
@@ -913,13 +907,19 @@ a{
     border-radius: 13px;
 }
 
-#email > p{
-    color: rgba(0, 0, 0, 0.23);
+#email > input {
+    border: none;
+    outline: none;
     font-size: 20px;
-    align-self: center;
+    width: 75%;
+    color: rgba(0, 0, 0, 0.8);
 }
 
-#email > a > img{
+#email > input::placeholder {
+    color: rgba(0, 0, 0, 0.23);
+}
+
+#email > a > img {
     background-color: #3F5BD9;
     padding: 15px 12px;
     border-radius: 13px;
@@ -1110,6 +1110,9 @@ a{
 
         .imglado{display: none;}
 
+        .campo-box input,
+        .campo-box select{font-size: 16px;};
+
         /* -- */
 
         #textospag2 > h1{font-size: 32px;}
@@ -1240,10 +1243,9 @@ a{
 
         #imagenspag5{justify-content: center;}
 
-        .imagempag5{
-            align-self: center;
-            max-width: 285px;
-        }
+        .cardimagempag5{width: 80%;}
+
+        .imagempag5{align-self: center;}
 
         #alinharfimpag5{margin-bottom: 25px;}
         #fimpag5 > h2{font-size: 18px;}
