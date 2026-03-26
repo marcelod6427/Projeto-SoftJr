@@ -1052,6 +1052,10 @@ a{
 
         /* -- */
 
+        #background{
+            margin-bottom: 275px;
+        }
+
         #divisaopag1 {flex-flow: column nowrap;}
 
         #textopag1{
@@ -1115,7 +1119,7 @@ a{
             margin-bottom: 15px;
         }
 
-        .divimgpag2 > p{font-size: 13px;}
+        .divimgpag2 > p{font-size: 90%;}
 
         #textodotextopag2{
             justify-content: center;
@@ -1130,7 +1134,7 @@ a{
 
         .verify{
             width: 100%;
-            max-width: 137px;
+            max-width: 50%;
             align-self: center;
         }
 
@@ -1162,12 +1166,18 @@ a{
 
         #paicardspag3{
             padding: 30px 0;
+            justify-content: center;
         }
 
-        .cardspag3{padding: 35px 30px;}
+        .cardspag3{
+            padding: 35px 30px;
+            width: 100%;
+            max-width: 90%;
+        }
 
         #fimpag3{
             margin-top: 0;
+            flex-direction: column;
         }
 
         #part1fimpag3,
@@ -1176,14 +1186,15 @@ a{
             width: 100%;
         }
 
+        
         #textofimpart1pag3 > h2{
             width: 100%;
-            max-width: 160px;
+            font-size: 20px;
         }
 
         #textofimpart1pag3 > p{
             width: 100%;
-            max-width: 175px;
+            max-width: 90%
         }
 
         /* -- */
@@ -1200,6 +1211,12 @@ a{
         #alignpag5{
             margin-top: 40px;
             gap: 30px;
+            flex-flow: column wrap;
+        }
+
+        #textopag5{
+            width: 100%;
+            max-width: 500px;
         }
 
         #textopag5 >h3{font-size: 20px;}
@@ -1222,7 +1239,7 @@ a{
 
         #imagenspag5{justify-content: center;}
 
-        .imagempag5{max-width: 255px;}
+        .imagempag5{align-self: center;}
 
         #alinharfimpag5{margin-bottom: 25px;}
         #fimpag5 > h2{font-size: 18px;}
@@ -1237,6 +1254,15 @@ a{
             max-width: 210px;
         }
 
+        #aligncardspag6{
+            flex-flow: column wrap;
+            align-items: center;
+        }
+
+        .cardspag6{
+            max-width: 80%;
+        }
+
         .fimpag6{gap: 10px;}
 
         .fimpag6 > h2{
@@ -1244,7 +1270,7 @@ a{
             margin: 15px 0;
         }
 
-        .fimpag6 > hr{margin: 10px 0;}
+        .fimpag6 > hr{margin: 0;}
 
         .alinharfimpag6 > img{
             max-width: 18px;
@@ -1255,6 +1281,10 @@ a{
         .setafimpag6{margin-bottom: 0;}
 
         /* -- */
+
+        .contfooter{
+            flex-direction: column;
+        }
 
         #footeresq{
             display: flex;
@@ -1315,8 +1345,10 @@ a{
         #footerdirbaixo{
             justify-content: center;
             margin: 25px 0 15px 0;
-            gap: 12px;
+            gap: 20px;
         }
+
+        #redes{gap: 10px;}
 
         #redes > a >img{
             max-width: 50px;
@@ -1332,3 +1364,44 @@ a{
         #textonumerofooter > h3{font-size: 20px;}
     }
 }
+
+@media screen and (max-width: 390px) {
+    body{
+        #background{
+            margin-bottom: 275px;
+        }
+    }
+}
+
+@media screen and (max-width: 370px) {
+    body{
+        #background{
+            margin-bottom: 315px;
+        }
+    }
+}
+
+@media screen and (max-width: 350px) {
+    body{
+        #background{
+            margin-bottom: 315px;
+        }
+    }
+}
+
+@media screen and (max-width: 345px) {
+    body{
+        #background{
+            margin-bottom: 475px;
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body{
+        #background{
+            margin-bottom: 475px;
+        }
+    }
+}
+
