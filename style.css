@@ -1026,6 +1026,59 @@ a{
 
 /* -- */
 
+
+@media screen and (min-width: 601px) and (max-width: 950px) {
+    body{
+        #divisaohead{gap: 20px;}
+
+        #background{height: 605px;}
+
+        #textopag1{align-items: center;}
+        #subpag1{
+            margin-top: 15px;
+            font-size: 25px;
+        }
+        #titulopag1{
+            font-size: 50px;
+            text-align: center;
+        }
+        .paragrafo{text-align: justify;}
+
+        #imgpag1box{display: none;}
+
+        .imglado{display: none;}
+
+        #textospag2{gap: 20px;}
+        #textospag2 > p{
+            align-self: center;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        #textodotextopag2{align-self: center;}
+
+        #textopag3{
+            justify-content: center;
+            text-align: justify;
+        }
+        #textopag3 > p{
+            font-size: 18px;
+            align-self: center;
+            max-width: 700px;
+        }
+
+        #fimpag3{
+            margin-top: 0;
+            justify-content: center;
+            gap: 30px;
+        }
+    }
+    
+}
+
+@media screen and (min-width: 601px) and (max-width: 658px){body{#background{height: 825px;}
+#textinhopag2 > h2{max-width: 225px;}}}
+
+/* Celular ate 600px */
 @media screen and (max-width: 600px) {
     body {
 
